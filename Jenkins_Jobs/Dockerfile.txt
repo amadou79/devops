@@ -1,8 +1,8 @@
 # Pull tomcat latest image from dockerhub 
-From tomcat:latest
+From tomcat:8-jre8
 
 # Maintainer
-MAINTAINER "AR Shankar" 
+MAINTAINER "amadou mfoloum" 
 
 # copy war file on to container 
 COPY ./webapp.war /usr/local/tomcat/webapps
